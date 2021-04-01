@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/aapt0401dbserver/databases/Mvc50NoSql_db",
+      "type": "mssql.azure",
+      "connectionId": "Mvc50NoSqlContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Mvc50NoSqlContext",
+      "suggestion": "true",
+      "ignored": "true"
+    }
+  }
+}

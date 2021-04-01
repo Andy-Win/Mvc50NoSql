@@ -3,6 +3,12 @@
     "mssql1": {
       "type": "mssql.local",
       "connectionId": "Mvc50NoSqlContext"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Mvc50NoSqlContext",
+      "suggestion": "true",
+      "ignored": "true"
     }
   }
 }
